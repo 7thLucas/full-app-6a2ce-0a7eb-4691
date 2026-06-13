@@ -8,6 +8,7 @@ import {
   Network,
   Wifi,
   Lock,
+  ShieldAlert,
 } from "lucide-react";
 
 const navItems = [
@@ -45,6 +46,13 @@ const navItems = [
     path: "/protocol",
     icon: Network,
     description: "Inter-Operable Settlements",
+  },
+  {
+    id: "security-monitor",
+    label: "Security Monitor",
+    path: "/security",
+    icon: ShieldAlert,
+    description: "Self-Healing Threat Response",
   },
 ];
 
