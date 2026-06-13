@@ -81,7 +81,10 @@ Target market: sovereign governments and central banks (primary); commercial ban
 - **G20 + ASEAN defense** — real-time currency pressure maps and coordinated defense protocols across 13 nations
 - **Black swan simulation** — 6 crisis scenario types modeled by AGI with sovereign response playbooks
 - **47-year threat horizon** — live quantum encryption countdown with full key rotation audit trail
-- Scale: 9-section functional prototype, designed for multi-billion dollar sovereign deployment
+- **Real-time sovereign credit ratings** — AGI replaces Moody's/S&P/Fitch across 20 G20 nations with 10-factor continuous assessment
+- **CBDC lifecycle sovereignty** — 8 digital currencies from mint to retirement under quantum-secured sovereign oversight
+- **Multi-nation policy coordination** — G7 + observers co-govern monetary policy in real time with quorum-tracked voting and emergency fast-track
+- Scale: 12-section functional prototype, designed for multi-billion dollar sovereign deployment
 
 ---
 
