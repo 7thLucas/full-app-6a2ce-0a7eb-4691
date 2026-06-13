@@ -31,7 +31,7 @@
 
 ---
 
-## Core Platform (9 Sections — All Live)
+## Core Platform (12 Sections — All Live)
 
 1. **Central Bank Command Center** — Real-time sovereign currency dashboard: total supply, velocity, issuance vs. destruction rate, global flow ticker across active corridors.
 
@@ -50,6 +50,12 @@
 8. **AI Economic Stress Test Simulator** — AGI models catastrophic economic scenarios (hyperinflation, sovereign debt default, bank run cascades, currency war, pandemic shock) and auto-generates sovereign response playbooks before crises hit.
 
 9. **Quantum Security Command Center** — Dedicated command for post-quantum cryptographic governance. CRYSTALS-Kyber-1024, CRYSTALS-Dilithium, SPHINCS+, FALCON-1024 key management, rotation scheduling, and 47-year threat horizon countdown.
+
+10. **Sovereign Credit Rating Engine** — AGI-powered real-time sovereign credit ratings for all 20 G20 nations, replacing Moody's/S&P/Fitch. Continuous unbiased assessment across 10 factors with full methodology transparency and legacy agency comparison.
+
+11. **CBDC Issuance & Lifecycle Management** — Issue, distribute, and retire 8 Central Bank Digital Currencies (USD-D, EUR-D, IDR-D, CNY-D, JPY-D, GBP-D, SAR-D, INR-D) with full lifecycle visibility. 4-step minting authorization chain, cross-border atomic CBDC swaps, and physical-to-digital ratio tracking.
+
+12. **Multi-Nation Policy Coordination Hub** — G7 founding council + 3 observer nations co-author and vote on monetary policy in real time. Collaborative authoring simulation, per-nation quorum tracking, emergency fast-track protocol, and full policy decision archive.
 
 ---
 
