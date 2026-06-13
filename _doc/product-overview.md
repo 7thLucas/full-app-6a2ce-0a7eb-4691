@@ -66,13 +66,16 @@ Target market: sovereign governments and central banks (primary); commercial ban
 ## Key Claims & Differentiators
 
 - **0.001-second** counterfeit detection — physical and digital
-- **95%+** inflation prediction accuracy via AGI
-- **50+ years** of data security via quantum-resistant encryption
-- **Atomic** cross-border settlement replacing SWIFT's 2–5 day delays
-- **Real-time** AML detection and money laundering quarantine
-- **Self-healing** — no governance lag on security response
+- **95%+** inflation prediction accuracy via AGI across 13 economic signals
+- **50+ years** of data security via NIST PQC (CRYSTALS-Kyber-1024, SPHINCS+, FALCON-1024)
+- **Atomic** cross-border settlement replacing SWIFT's 2–5 day delays across 10 currency pairs
+- **Real-time** AML detection and money laundering quarantine via network graph
+- **Self-healing** — no governance lag on security response; 9 threat categories auto-patched
 - **Immutable sovereign ledger** — every note tracked from print to destruction
-- Scale: designed for multi-billion dollar sovereign deployment
+- **G20 + ASEAN defense** — real-time currency pressure maps and coordinated defense protocols across 13 nations
+- **Black swan simulation** — 6 crisis scenario types modeled by AGI with sovereign response playbooks
+- **47-year threat horizon** — live quantum encryption countdown with full key rotation audit trail
+- Scale: 9-section functional prototype, designed for multi-billion dollar sovereign deployment
 
 ---
 
