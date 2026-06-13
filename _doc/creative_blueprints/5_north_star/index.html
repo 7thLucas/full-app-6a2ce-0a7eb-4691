@@ -1,0 +1,125 @@
+<style>
+.mode-landscape .sl-ops-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-ops-grid { grid-template-columns: 1fr; }
+.mode-landscape .sl-value-row { flex-direction: row; }
+.mode-portrait .sl-value-row { flex-direction: column; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10 gap-5">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-2">
+      <div class="flex items-center gap-2 flex-wrap">
+        <span class="text-xs font-bold tracking-widest text-amber-500 uppercase">North Star Metric</span>
+        <span class="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-3 py-0.5 rounded-full font-semibold">Projected impact — based on your inputs</span>
+      </div>
+      <h2 class="text-3xl font-black text-slate-900 leading-tight">Weekly Verified Operations</h2>
+      <p class="text-xs text-slate-500">Three core operations Money Elysium exists to perform. Fill in the assumption chips to project your deployment's real numbers.</p>
+    </div>
+
+    <!-- Operation types -->
+    <div class="sl-ops-grid grid gap-4">
+
+      <!-- Op 1: Currency Verification -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-rose-100 flex items-center justify-center shrink-0">
+            <span class="text-rose-600 text-sm">🔍</span>
+          </div>
+          <span class="text-xs font-bold text-slate-800">Currency Verification</span>
+        </div>
+        <p class="text-xs text-slate-500 leading-relaxed">A physical or digital banknote scanned and authenticated via Anti-Counterfeit Verification Protocol.</p>
+        <div class="bg-rose-50 border border-rose-200 rounded-xl px-3 py-2.5">
+          <div class="text-xs font-bold text-rose-600 mb-1">Assumption — adjust this</div>
+          <code class="text-xs text-rose-800 leading-relaxed block">
+            [A partner banks]<br/>
+            × [1,000 verif/bank/day]<br/>
+            × 7 days<br/>
+            = <strong>7,000 × A / week</strong>
+          </code>
+        </div>
+      </div>
+
+      <!-- Op 2: Policy Execution -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-amber-100 flex items-center justify-center shrink-0">
+            <span class="text-amber-600 text-sm">⚡</span>
+          </div>
+          <span class="text-xs font-bold text-slate-800">Policy Execution</span>
+        </div>
+        <p class="text-xs text-slate-500 leading-relaxed">A monetary policy action — interest rate, reserve ratio, or liquidity move — enacted through the AGI Monetary Brain.</p>
+        <div class="bg-amber-50 border border-amber-200 rounded-xl px-3 py-2.5">
+          <div class="text-xs font-bold text-amber-600 mb-1">Assumption — adjust this</div>
+          <code class="text-xs text-amber-800 leading-relaxed block">
+            [B central banks]<br/>
+            × [3 actions/week]<br/>
+            <br/>
+            = <strong>3 × B / week</strong>
+          </code>
+        </div>
+      </div>
+
+      <!-- Op 3: Cross-Border Settlement -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
+            <span class="text-emerald-600 text-sm">🌐</span>
+          </div>
+          <span class="text-xs font-bold text-slate-800">Cross-Border Settlement</span>
+        </div>
+        <p class="text-xs text-slate-500 leading-relaxed">An atomic inter-bank or inter-nation transfer completed via the Inter-Operable Banking Protocol, replacing SWIFT.</p>
+        <div class="bg-emerald-50 border border-emerald-200 rounded-xl px-3 py-2.5">
+          <div class="text-xs font-bold text-emerald-600 mb-1">Assumption — adjust this</div>
+          <code class="text-xs text-emerald-800 leading-relaxed block">
+            [C bank pairs]<br/>
+            × [50 settlements/week]<br/>
+            <br/>
+            = <strong>50 × C / week</strong>
+          </code>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Value projection -->
+    <div class="sl-value-row flex gap-4 flex-1 items-stretch">
+
+      <!-- Weekly value derivation -->
+      <div class="flex-1 bg-slate-900 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xs text-slate-400 font-semibold uppercase tracking-widest">Weekly Platform Value</div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-black text-amber-400">$[ W ]</span>
+          <span class="text-slate-400 text-sm">/ week</span>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed flex-1">
+          Derived from: counterfeiting losses prevented + SWIFT fee savings + policy automation efficiency gains.
+        </p>
+        <div class="bg-slate-800 rounded-lg px-3 py-2 text-xs text-slate-400 font-mono leading-relaxed">
+          (7,000×A × avg counterfeit value)<br/>
+          + (50×C × SWIFT fee saved)<br/>
+          + (3×B × 8h × analyst hourly rate)<br/>
+          = <span class="text-amber-400 font-bold">W per week</span>
+        </div>
+      </div>
+
+      <!-- Annual value -->
+      <div class="flex-1 bg-amber-50 border border-amber-200 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xs text-amber-700 font-semibold uppercase tracking-widest">Annual Sovereign Value</div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-3xl font-black text-amber-600">$[ W × 52 ]</span>
+          <span class="text-amber-500 text-sm">/ year</span>
+        </div>
+        <p class="text-xs text-amber-800 leading-relaxed flex-1">
+          Weekly value × 52 weeks. These are projections from your own inputs — not measured results and not promises.
+        </p>
+        <div class="bg-amber-100 border border-amber-300 rounded-lg px-3 py-2">
+          <p class="text-xs text-amber-700 font-semibold">↑ Set [A], [B], and [C] above to unlock your deployment number.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
