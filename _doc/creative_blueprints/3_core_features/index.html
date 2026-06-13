@@ -1,97 +1,144 @@
 <style>
-.mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); }
-.mode-portrait .sl-grid { grid-template-columns: 1fr; }
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
 </style>
 
 <section class="w-full h-full overflow-auto bg-white">
-  <div class="flex flex-col h-full p-10 gap-5">
+  <div class="flex flex-col h-full p-8 gap-4">
 
     <!-- Header -->
-    <div class="flex flex-col gap-1">
-      <span class="text-xs font-bold tracking-widest text-amber-500 uppercase">Platform Capabilities</span>
-      <h2 class="text-3xl font-black text-slate-900 leading-tight">Six Pillars of Sovereign Finance</h2>
+    <div class="flex items-start justify-between gap-4">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-bold tracking-widest text-amber-500 uppercase">Full Platform</span>
+        <h2 class="text-3xl font-black text-slate-900 leading-tight">Nine Sections of Sovereign Command</h2>
+      </div>
+      <div class="shrink-0 bg-slate-900 px-3 py-1.5 rounded-full">
+        <span class="text-amber-400 text-xs font-black tracking-widest uppercase">All Live</span>
+      </div>
     </div>
 
     <!-- Persona chips -->
     <div class="flex flex-wrap gap-2">
-      <div class="flex items-center gap-2 bg-slate-900 text-white px-4 py-1.5 rounded-full">
+      <div class="flex items-center gap-2 bg-slate-900 text-white px-3 py-1 rounded-full">
         <div class="w-1.5 h-1.5 rounded-full bg-amber-400"></div>
         <span class="text-xs font-bold">Central Bank Governor</span>
       </div>
-      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Finance Ministry</div>
-      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Commercial Bank</div>
-      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Security Agency</div>
+      <div class="px-3 py-1 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Finance Ministry</div>
+      <div class="px-3 py-1 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Commercial Bank</div>
+      <div class="px-3 py-1 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Security Agency</div>
     </div>
 
-    <!-- Feature grid -->
-    <div class="sl-grid grid flex-1 gap-4">
+    <!-- 9-section grid -->
+    <div class="sl-grid grid flex-1 gap-3">
 
-      <!-- AGI Monetary Brain -->
-      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-amber-500/20 flex items-center justify-center shrink-0">
-            <span class="text-amber-400 text-lg">🧠</span>
+      <!-- 1. Central Bank Command Center -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-slate-200 flex items-center justify-center shrink-0">
+            <span class="text-slate-700 text-sm">🏛️</span>
           </div>
-          <span class="font-bold text-white text-sm">AGI Monetary Brain</span>
+          <span class="font-bold text-slate-900 text-xs">Command Center</span>
         </div>
-        <p class="text-slate-400 text-xs leading-relaxed flex-1">Predicts inflation with 95%+ accuracy. Adjusts interest rates and auto-executes monetary policy without bureaucratic lag. Real-time AML detection included.</p>
-        <div class="flex flex-wrap gap-1.5">
-          <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium">95% Accuracy</span>
-          <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium">Auto-Execute</span>
-        </div>
+        <p class="text-slate-500 text-xs leading-relaxed flex-1">Real-time supply, velocity, issuance vs. destruction, and global currency flow ticker.</p>
+        <span class="text-xs bg-slate-200 text-slate-600 px-2 py-0.5 rounded-full font-medium self-start">Live Dashboard</span>
       </div>
 
-      <!-- Sovereign Currency Ledger -->
-      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-indigo-100 flex items-center justify-center shrink-0">
-            <span class="text-indigo-600 text-lg">📒</span>
+      <!-- 2. Sovereign Currency Ledger -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
+            <span class="text-indigo-600 text-sm">📒</span>
           </div>
-          <span class="font-bold text-slate-900 text-sm">Sovereign Currency Ledger</span>
+          <span class="font-bold text-slate-900 text-xs">Sovereign Ledger</span>
         </div>
-        <p class="text-slate-600 text-xs leading-relaxed flex-1">The world's first immutable fiat ledger. Every currency unit tracked from printing to destruction. Eliminates double-spend for physical and digital fiat.</p>
-        <div class="flex flex-wrap gap-1.5">
-          <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full font-medium">Immutable</span>
-          <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full font-medium">Full Lifecycle</span>
-        </div>
+        <p class="text-slate-500 text-xs leading-relaxed flex-1">World's first immutable fiat ledger. Every note tracked from print to destruction. No double-spend.</p>
+        <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full font-medium self-start">Immutable</span>
       </div>
 
-      <!-- Anti-Counterfeit Protocol -->
-      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-rose-100 flex items-center justify-center shrink-0">
-            <span class="text-rose-600 text-lg">🔍</span>
+      <!-- 3. Anti-Counterfeit Verification -->
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-rose-100 flex items-center justify-center shrink-0">
+            <span class="text-rose-600 text-sm">🔍</span>
           </div>
-          <span class="font-bold text-slate-900 text-sm">Anti-Counterfeit Verification</span>
+          <span class="font-bold text-slate-900 text-xs">Anti-Counterfeit</span>
         </div>
-        <p class="text-slate-600 text-xs leading-relaxed flex-1">Scan physical or digital cash, verify authenticity in 0.001 seconds. Counterfeit banknotes detected and globally blacklisted instantly across all nodes.</p>
-        <div class="flex flex-wrap gap-1.5">
-          <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">0.001s Detection</span>
-          <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">Global Blacklist</span>
-        </div>
+        <p class="text-slate-500 text-xs leading-relaxed flex-1">Authenticate any banknote in 0.001 seconds. Counterfeits globally blacklisted the moment detected.</p>
+        <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium self-start">0.001s</span>
       </div>
 
-      <!-- Inter-Operable Banking Protocol -->
-      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-emerald-500/20 flex items-center justify-center shrink-0">
-            <span class="text-emerald-400 text-lg">🌐</span>
+      <!-- 4. AGI Monetary Brain -->
+      <div class="bg-slate-900 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-amber-500/20 flex items-center justify-center shrink-0">
+            <span class="text-amber-400 text-sm">🧠</span>
           </div>
-          <span class="font-bold text-white text-sm">Inter-Operable Banking Protocol</span>
+          <span class="font-bold text-white text-xs">AGI Monetary Brain</span>
         </div>
-        <p class="text-slate-400 text-xs leading-relaxed flex-1">Atomic settlement transfers between banks and countries. No SWIFT dependency, no delays, no excessive intermediary fees. Nations connect without surrendering sovereignty.</p>
-        <div class="flex flex-wrap gap-1.5">
-          <span class="text-xs bg-emerald-500/15 text-emerald-400 px-2 py-0.5 rounded-full font-medium">Atomic Settlement</span>
-          <span class="text-xs bg-emerald-500/15 text-emerald-400 px-2 py-0.5 rounded-full font-medium">No SWIFT</span>
-        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">95%+ inflation prediction across 13 signals. Auto-executes policy. Live AML network graph.</p>
+        <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium self-start">95% Accuracy</span>
       </div>
 
-    </div>
+      <!-- 5. Inter-Operable Banking Protocol -->
+      <div class="bg-slate-900 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-emerald-500/20 flex items-center justify-center shrink-0">
+            <span class="text-emerald-400 text-sm">🌐</span>
+          </div>
+          <span class="font-bold text-white text-xs">Banking Protocol</span>
+        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">Atomic settlement across 10 currency pairs. No SWIFT. Quantum-verified audit trail per transfer.</p>
+        <span class="text-xs bg-emerald-500/15 text-emerald-400 px-2 py-0.5 rounded-full font-medium self-start">Atomic · $0 Fee</span>
+      </div>
 
-    <!-- Footer note -->
-    <div class="flex items-center gap-3">
-      <div class="w-2 h-2 rounded-full bg-amber-500 shrink-0"></div>
-      <p class="text-xs text-slate-400">Plus <strong class="text-slate-600">Self-Healing Security</strong> (24/7 AGI auto-patch) and <strong class="text-slate-600">Quantum-Resistant Encryption</strong> (50+ year data security) — sovereign-grade by default.</p>
+      <!-- 6. Self-Healing Security Monitor -->
+      <div class="bg-slate-900 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-blue-500/20 flex items-center justify-center shrink-0">
+            <span class="text-blue-400 text-sm">🛡️</span>
+          </div>
+          <span class="font-bold text-white text-xs">Self-Healing Security</span>
+        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">24/7 AGI threat scan across 9 categories. Auto-quarantine, auto-patch. Zero human intervention required.</p>
+        <span class="text-xs bg-blue-500/15 text-blue-400 px-2 py-0.5 rounded-full font-medium self-start">Autonomous</span>
+      </div>
+
+      <!-- 7. Currency War Room -->
+      <div class="bg-red-950 border border-red-800/40 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-red-500/20 flex items-center justify-center shrink-0">
+            <span class="text-red-400 text-sm">⚔️</span>
+          </div>
+          <span class="font-bold text-white text-xs">Currency War Room</span>
+        </div>
+        <p class="text-red-200/70 text-xs leading-relaxed flex-1">G20 + ASEAN pressure maps. Capital flight alerts. Defense protocol activation for geopolitical attacks.</p>
+        <span class="text-xs bg-red-500/15 text-red-400 px-2 py-0.5 rounded-full font-medium self-start">13 Nations</span>
+      </div>
+
+      <!-- 8. AI Stress Test Simulator -->
+      <div class="bg-amber-950 border border-amber-700/40 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-amber-500/20 flex items-center justify-center shrink-0">
+            <span class="text-amber-400 text-sm">⚗️</span>
+          </div>
+          <span class="font-bold text-white text-xs">Stress Test Simulator</span>
+        </div>
+        <p class="text-amber-200/70 text-xs leading-relaxed flex-1">AGI models black swan crises — hyperinflation, debt defaults, bank runs — and generates sovereign response playbooks.</p>
+        <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium self-start">6 Scenarios</span>
+      </div>
+
+      <!-- 9. Quantum Security Command Center -->
+      <div class="bg-slate-900 rounded-xl p-4 flex flex-col gap-2">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-cyan-500/20 flex items-center justify-center shrink-0">
+            <span class="text-cyan-400 text-sm">🔐</span>
+          </div>
+          <span class="font-bold text-white text-xs">Quantum Security</span>
+        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">CRYSTALS-Kyber-1024 + 5 NIST PQC algorithms. Key rotation command. 47-year threat horizon countdown.</p>
+        <span class="text-xs bg-cyan-500/15 text-cyan-400 px-2 py-0.5 rounded-full font-medium self-start">50-Year Safe</span>
+      </div>
+
     </div>
 
   </div>
