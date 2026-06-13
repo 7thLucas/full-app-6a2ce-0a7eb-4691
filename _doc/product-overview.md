@@ -4,7 +4,7 @@
 - **Name**: Money Elysium
 - **Tagline**: The World's First Super Advanced Sovereign Fiat Management System
 - **Category**: Sovereign FinTech / Central Bank Infrastructure Platform
-- **Stage**: Investor-facing prototype — pre-deployment
+- **Stage**: Functional prototype — built and live, ready for investor preview
 
 ---
 
