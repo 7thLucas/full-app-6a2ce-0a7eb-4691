@@ -64,6 +64,21 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        // Money Elysium custom palette
+        me: {
+          "bg-primary": "var(--me-bg-primary)",
+          "bg-secondary": "var(--me-bg-secondary)",
+          "bg-card": "var(--me-bg-card)",
+          gold: "var(--me-gold)",
+          "gold-light": "var(--me-gold-light)",
+          blue: "var(--me-blue)",
+          "blue-glow": "var(--me-blue-glow)",
+          success: "var(--me-success)",
+          warning: "var(--me-warning)",
+          danger: "var(--me-danger)",
+          "text-primary": "var(--me-text-primary)",
+          "text-secondary": "var(--me-text-secondary)",
+        },
       },
       keyframes: {
         "accordion-down": {
@@ -78,6 +93,10 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        mono: ["JetBrains Mono", "Courier New", "monospace"],
       },
     },
   },
