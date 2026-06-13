@@ -1,40 +1,98 @@
 <style>
-  .mode-landscape .sl-foundation-layout { display: flex; flex-direction: row; align-items: stretch; min-height: 100%; }
-  .mode-landscape .sl-content-panel { width: 55%; padding: 3rem; display: flex; flex-direction: column; justify-content: center; }
-  .mode-landscape .sl-visual-panel { width: 45%; min-height: 0; }
-  .mode-portrait .sl-foundation-layout { display: flex; flex-direction: column; min-height: 100%; }
-  .mode-portrait .sl-content-panel { padding: 2rem 1.5rem; }
-  .mode-portrait .sl-visual-panel { min-height: 280px; }
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 54%; height: 100%; }
+.mode-landscape .sl-visual { width: 46%; height: 100%; }
+.mode-portrait .sl-left { width: 100%; }
+.mode-portrait .sl-visual { width: 100%; min-height: 220px; }
 </style>
-<section class="w-full h-full overflow-auto bg-white">
-  <div class="sl-foundation-layout">
-    <div class="sl-content-panel">
-      <div class="flex items-center justify-between mb-4">
-        <span class="inline-block text-xs font-semibold tracking-widest uppercase" style="color:#1e40af;">Foundation</span>
-        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 border rounded-full" style="background-color:#1e40af; border-color:#1e40af30;">
-          <span class="text-xs font-semibold" style="color:#ffffff;">Validated</span>
 
-        </span>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex w-full h-full">
+
+    <!-- Left: content -->
+    <div class="sl-left flex flex-col gap-4 p-10">
+
+      <!-- Header -->
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-bold tracking-widest text-amber-500 uppercase">The Case for Change</span>
+        <h2 class="text-3xl font-black text-slate-900 leading-tight">Why the World Needs<br/>Money Elysium</h2>
       </div>
-      <h1 class="text-3xl font-bold text-slate-900 leading-tight mb-8">Legacy Banking Collapse</h1>
-      <div class="space-y-5">
-        <div class="border-l-4 pl-4 relative" style="border-color:#F43F5E;">
-          <h2 class="text-sm font-semibold uppercase tracking-wide mb-1" style="color:#E11D48;">The Problem</h2>
-          <p class="text-slate-700 leading-relaxed text-sm">Central banks still operate on 1970s infrastructure. Counterfeiting costs nations over $100 billion annually. SWIFT transfers take days with billion-dollar fees. Monetary policy responds to yesterday&#x27;s data. No real-time control, no transparency, no superintelligence driving decisions.</p>
+
+      <!-- Problem card -->
+      <div class="flex-1 bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center shrink-0">
+            <span class="text-red-600 text-xs font-black">✕</span>
+          </div>
+          <span class="text-xs font-bold text-red-600 uppercase tracking-widest">The Problem</span>
         </div>
-        <div class="border-l-4 pl-4 relative" style="border-color:#1e40af;">
-          <h2 class="text-sm font-semibold uppercase tracking-wide mb-1" style="color:#1e40af;">The Solution</h2>
-          <p class="text-slate-700 leading-relaxed text-sm">Central banks operate on 1970s infrastructure. Counterfeiting costs nations $100B+ annually. SWIFT transfers take days and cost billions. Monetary policy lags reality by months. No real-time control, no transparency, no superintelligence.</p>
-        </div>
-        <div class="border-l-4 border-sky-500 pl-4 relative"><h2 class="text-sm font-semibold text-sky-600 uppercase tracking-wide mb-1">Target Audience</h2><p class="text-slate-700 leading-relaxed text-sm">Central Bank Governors, Finance Ministers, Sovereign Wealth Funds, Central Bank Technology Officers</p></div>
-        <div class="border-l-4 border-amber-500 pl-4 relative"><h2 class="text-sm font-semibold text-amber-600 uppercase tracking-wide mb-1">Personal Motivation</h2><p class="text-slate-700 leading-relaxed text-sm">Build the world&#x27;s first truly sovereign, transparent, and superintelligent monetary system that combines Silicon Valley speed with national control and 50+ year quantum-resistant security.</p></div>
+        <ul class="flex flex-col gap-2">
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 text-sm shrink-0 mt-0.5">—</span>
+            <span class="text-sm text-slate-700">Central banks still run on <strong class="text-slate-900">1970s infrastructure</strong> — no real-time visibility, no predictive intelligence</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 text-sm shrink-0 mt-0.5">—</span>
+            <span class="text-sm text-slate-700">Counterfeiting costs nations <strong class="text-slate-900">billions annually</strong> with no instant global detection layer</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 text-sm shrink-0 mt-0.5">—</span>
+            <span class="text-sm text-slate-700">SWIFT cross-border transfers take <strong class="text-slate-900">2–5 days</strong> with high fees — a 50-year-old bottleneck</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-red-400 text-sm shrink-0 mt-0.5">—</span>
+            <span class="text-sm text-slate-700">Monetary policy runs on <strong class="text-slate-900">bureaucratic lag</strong> — no automation, no predictive execution</span>
+          </li>
+        </ul>
       </div>
-      <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Fiat Management</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Central Bank Infrastructure</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Quantum Security</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">AGI Monetary Policy</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Anti-Counterfeiting</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Sovereign Ledger</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Financial System 7.0</span></div>
-      <div class="mt-8"><data-attribution /></div>
+
+      <!-- Solution card -->
+      <div class="flex-1 bg-slate-900 rounded-2xl p-6 flex flex-col gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0">
+            <span class="text-amber-400 text-xs font-black">✦</span>
+          </div>
+          <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">The Solution</span>
+        </div>
+        <ul class="flex flex-col gap-2">
+          <li class="flex items-start gap-2">
+            <span class="text-amber-400 text-sm shrink-0 mt-0.5">✓</span>
+            <span class="text-sm text-slate-200">Immutable <strong class="text-amber-300">Sovereign Currency Ledger</strong> — every note tracked from printing to destruction, no double-spend</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-amber-400 text-sm shrink-0 mt-0.5">✓</span>
+            <span class="text-sm text-slate-200"><strong class="text-amber-300">0.001-second</strong> counterfeit detection — physical and digital, blacklisted globally, instantly</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-amber-400 text-sm shrink-0 mt-0.5">✓</span>
+            <span class="text-sm text-slate-200"><strong class="text-amber-300">Atomic cross-border settlement</strong> between banks and nations — no SWIFT, no delays, no fees</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-amber-400 text-sm shrink-0 mt-0.5">✓</span>
+            <span class="text-sm text-slate-200"><strong class="text-amber-300">AGI Monetary Brain</strong> — 95%+ inflation prediction, real-time AML, auto-policy execution</span>
+          </li>
+        </ul>
+      </div>
+
     </div>
-    <div class="sl-visual-panel relative">
-      <img src="http://localhost:8001/common/image-generation?prompt=legacy+banking+infrastructure+slow+counterfeiting+financial+vulnerability+outdated+systems&amp;keyspace=d1gy7fum&amp;user_id=4691" alt="visual" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent opacity-40"></div>
+
+    <!-- Visual panel -->
+    <div class="sl-visual relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=dramatic%20contrast%20between%20crumbling%20vintage%20banking%20infrastructure%20on%20one%20side%20and%20a%20glowing%20futuristic%20sovereign%20digital%20finance%20system%20on%20the%20other%2C%20editorial%20split%20lighting%2C%20cinematic%20institutional"
+        alt="Legacy vs Money Elysium"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent"></div>
+      <div class="absolute bottom-6 left-6 right-6">
+        <div class="bg-black/50 border border-white/20 rounded-xl px-4 py-3">
+          <p class="text-white text-xs font-semibold italic text-center leading-relaxed">
+            "This is not an upgrade.<br/>This is the leap to Financial System 7.0."
+          </p>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
