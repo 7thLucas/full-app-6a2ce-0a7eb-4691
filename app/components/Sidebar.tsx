@@ -12,6 +12,7 @@ import {
   Swords,
   FlaskConical,
   KeySquare,
+  Coins,
 } from "lucide-react";
 
 const navItems = [
@@ -77,6 +78,13 @@ const navItems = [
     path: "/quantum-security",
     icon: KeySquare,
     description: "Post-Quantum Cryptography",
+  },
+  {
+    id: "cbdc",
+    label: "CBDC",
+    path: "/cbdc",
+    icon: Coins,
+    description: "Digital Currency Lifecycle",
   },
 ];
 
