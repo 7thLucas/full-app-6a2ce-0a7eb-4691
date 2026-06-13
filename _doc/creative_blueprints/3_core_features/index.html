@@ -1,0 +1,98 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: 1fr; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10 gap-5">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-1">
+      <span class="text-xs font-bold tracking-widest text-amber-500 uppercase">Platform Capabilities</span>
+      <h2 class="text-3xl font-black text-slate-900 leading-tight">Six Pillars of Sovereign Finance</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex flex-wrap gap-2">
+      <div class="flex items-center gap-2 bg-slate-900 text-white px-4 py-1.5 rounded-full">
+        <div class="w-1.5 h-1.5 rounded-full bg-amber-400"></div>
+        <span class="text-xs font-bold">Central Bank Governor</span>
+      </div>
+      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Finance Ministry</div>
+      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Commercial Bank</div>
+      <div class="px-4 py-1.5 rounded-full border border-slate-200 text-slate-500 text-xs font-semibold">Security Agency</div>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid flex-1 gap-4">
+
+      <!-- AGI Monetary Brain -->
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-amber-500/20 flex items-center justify-center shrink-0">
+            <span class="text-amber-400 text-lg">🧠</span>
+          </div>
+          <span class="font-bold text-white text-sm">AGI Monetary Brain</span>
+        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">Predicts inflation with 95%+ accuracy. Adjusts interest rates and auto-executes monetary policy without bureaucratic lag. Real-time AML detection included.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium">95% Accuracy</span>
+          <span class="text-xs bg-amber-500/15 text-amber-400 px-2 py-0.5 rounded-full font-medium">Auto-Execute</span>
+        </div>
+      </div>
+
+      <!-- Sovereign Currency Ledger -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-indigo-100 flex items-center justify-center shrink-0">
+            <span class="text-indigo-600 text-lg">📒</span>
+          </div>
+          <span class="font-bold text-slate-900 text-sm">Sovereign Currency Ledger</span>
+        </div>
+        <p class="text-slate-600 text-xs leading-relaxed flex-1">The world's first immutable fiat ledger. Every currency unit tracked from printing to destruction. Eliminates double-spend for physical and digital fiat.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full font-medium">Immutable</span>
+          <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full font-medium">Full Lifecycle</span>
+        </div>
+      </div>
+
+      <!-- Anti-Counterfeit Protocol -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-rose-100 flex items-center justify-center shrink-0">
+            <span class="text-rose-600 text-lg">🔍</span>
+          </div>
+          <span class="font-bold text-slate-900 text-sm">Anti-Counterfeit Verification</span>
+        </div>
+        <p class="text-slate-600 text-xs leading-relaxed flex-1">Scan physical or digital cash, verify authenticity in 0.001 seconds. Counterfeit banknotes detected and globally blacklisted instantly across all nodes.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">0.001s Detection</span>
+          <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">Global Blacklist</span>
+        </div>
+      </div>
+
+      <!-- Inter-Operable Banking Protocol -->
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500/20 flex items-center justify-center shrink-0">
+            <span class="text-emerald-400 text-lg">🌐</span>
+          </div>
+          <span class="font-bold text-white text-sm">Inter-Operable Banking Protocol</span>
+        </div>
+        <p class="text-slate-400 text-xs leading-relaxed flex-1">Atomic settlement transfers between banks and countries. No SWIFT dependency, no delays, no excessive intermediary fees. Nations connect without surrendering sovereignty.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs bg-emerald-500/15 text-emerald-400 px-2 py-0.5 rounded-full font-medium">Atomic Settlement</span>
+          <span class="text-xs bg-emerald-500/15 text-emerald-400 px-2 py-0.5 rounded-full font-medium">No SWIFT</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer note -->
+    <div class="flex items-center gap-3">
+      <div class="w-2 h-2 rounded-full bg-amber-500 shrink-0"></div>
+      <p class="text-xs text-slate-400">Plus <strong class="text-slate-600">Self-Healing Security</strong> (24/7 AGI auto-patch) and <strong class="text-slate-600">Quantum-Resistant Encryption</strong> (50+ year data security) — sovereign-grade by default.</p>
+    </div>
+
+  </div>
+</section>
