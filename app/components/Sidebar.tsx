@@ -14,6 +14,7 @@ import {
   KeySquare,
   Coins,
   Globe,
+  Star,
 } from "lucide-react";
 
 const navItems = [
@@ -93,6 +94,13 @@ const navItems = [
     path: "/policy-hub",
     icon: Globe,
     description: "Multi-Nation Coordination",
+  },
+  {
+    id: "credit-ratings",
+    label: "Credit Ratings",
+    path: "/credit-ratings",
+    icon: Star,
+    description: "Sovereign Credit Engine",
   },
 ];
 
