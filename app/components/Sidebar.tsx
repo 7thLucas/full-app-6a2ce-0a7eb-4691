@@ -10,6 +10,7 @@ import {
   Lock,
   ShieldAlert,
   Swords,
+  FlaskConical,
 } from "lucide-react";
 
 const navItems = [
