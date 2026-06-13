@@ -9,6 +9,7 @@ import {
   Wifi,
   Lock,
   ShieldAlert,
+  Swords,
 } from "lucide-react";
 
 const navItems = [
@@ -53,6 +54,20 @@ const navItems = [
     path: "/security",
     icon: ShieldAlert,
     description: "Self-Healing Threat Response",
+  },
+  {
+    id: "war-room",
+    label: "War Room",
+    path: "/war-room",
+    icon: Swords,
+    description: "Geopolitical Defense Command",
+  },
+  {
+    id: "stress-test",
+    label: "Stress Test",
+    path: "/stress-test",
+    icon: FlaskConical,
+    description: "AI Economic Crisis Simulator",
   },
 ];
 
