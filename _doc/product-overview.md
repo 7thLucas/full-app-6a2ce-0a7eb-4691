@@ -31,19 +31,25 @@
 
 ---
 
-## Core Technologies (6 Pillars)
+## Core Platform (9 Sections — All Live)
 
-1. **Sovereign Currency Ledger** — The world's first immutable fiat ledger. Every unit of currency tracked from printing to destruction. Eliminates double-spend for both physical and digital fiat.
+1. **Central Bank Command Center** — Real-time sovereign currency dashboard: total supply, velocity, issuance vs. destruction rate, global flow ticker across active corridors.
 
-2. **AGI Monetary Brain** — AI that predicts inflation with 95%+ accuracy, adjusts interest rates, detects money laundering in real-time, and auto-executes monetary policy without bureaucratic lag.
+2. **Sovereign Currency Ledger** — The world's first immutable fiat ledger. Every unit of currency tracked from printing to destruction. Eliminates double-spend for both physical and digital fiat.
 
 3. **Anti-Counterfeit Verification Protocol** — Scan physical or digital cash, verify authenticity in 0.001 seconds. Counterfeit banknotes detected and globally blacklisted instantly.
 
-4. **Inter-Operable Banking Protocol** — Atomic settlement transfers between banks and countries. No SWIFT, no delays, no excessive fees.
+4. **AGI Monetary Brain** — AI that predicts inflation with 95%+ accuracy across 13 economic signals, adjusts interest rates, detects money laundering in real-time via network graph, and auto-executes monetary policy without bureaucratic lag.
 
-5. **Self-Healing Security** — AGI scans 24/7, auto-patches vulnerabilities, quarantines suspicious funds without waiting for governance votes.
+5. **Inter-Operable Banking Protocol** — Atomic settlement transfers between banks and countries across 10 currency pairs. No SWIFT, no delays, no excessive fees. Full quantum-verified audit trail per transaction.
 
-6. **Quantum-Resistant Encryption** — Immune to quantum computer attacks. Central bank transaction data secured for 50+ years.
+6. **Self-Healing Security Monitor** — AGI scans 24/7, auto-patches vulnerabilities (CVE-log), quarantines suspicious funds without waiting for governance votes. Live threat feed across 9 threat categories.
+
+7. **Currency War Room** — Geopolitical monetary defense command. G20 + ASEAN currency pressure maps across 13 nations, live capital flight alerts, competitive devaluation detection, and coordinated defense protocol activation with historical crisis timeline.
+
+8. **AI Economic Stress Test Simulator** — AGI models catastrophic economic scenarios (hyperinflation, sovereign debt default, bank run cascades, currency war, pandemic shock) and auto-generates sovereign response playbooks before crises hit.
+
+9. **Quantum Security Command Center** — Dedicated command for post-quantum cryptographic governance. CRYSTALS-Kyber-1024, CRYSTALS-Dilithium, SPHINCS+, FALCON-1024 key management, rotation scheduling, and 47-year threat horizon countdown.
 
 ---
 
