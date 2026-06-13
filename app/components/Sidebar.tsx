@@ -11,6 +11,7 @@ import {
   ShieldAlert,
   Swords,
   FlaskConical,
+  KeySquare,
 } from "lucide-react";
 
 const navItems = [
@@ -69,6 +70,13 @@ const navItems = [
     path: "/stress-test",
     icon: FlaskConical,
     description: "AI Economic Crisis Simulator",
+  },
+  {
+    id: "quantum-security",
+    label: "Quantum Security",
+    path: "/quantum-security",
+    icon: KeySquare,
+    description: "Post-Quantum Cryptography",
   },
 ];
 
