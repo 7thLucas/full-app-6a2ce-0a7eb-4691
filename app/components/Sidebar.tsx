@@ -13,6 +13,7 @@ import {
   FlaskConical,
   KeySquare,
   Coins,
+  Globe,
 } from "lucide-react";
 
 const navItems = [
@@ -85,6 +86,13 @@ const navItems = [
     path: "/cbdc",
     icon: Coins,
     description: "Digital Currency Lifecycle",
+  },
+  {
+    id: "policy-hub",
+    label: "Policy Hub",
+    path: "/policy-hub",
+    icon: Globe,
+    description: "Multi-Nation Coordination",
   },
 ];
 
